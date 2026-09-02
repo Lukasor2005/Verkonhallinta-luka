@@ -20,7 +20,8 @@ mgmt-bp	Hallintaverkon L2-sillan toteutukseen käytettävä kontti.
 
 Tehtävä 1.2 – Verkkokaavio
 
- Downloads valmis verkkokaavio 
+
+ [https://github.com/Lukasor2005/Verkonhallinta-luka/blob/f7f4245b8203be00bae534197130ba11f88ecfbc/reports/reports/Images/Teht%C3%A4v%C3%A41.2_verkkokaavio.png]
 
 Tehtävä 1.3 – IP-osoitteiden dokumentointi
 
