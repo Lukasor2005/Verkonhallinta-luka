@@ -1,4 +1,4 @@
-Hallinta - Tehtävä 2 - SNMP
+Hallinta  Tehtävä 2 - SNMP
 
 1.	Johdanto
 
