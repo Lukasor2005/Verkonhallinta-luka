@@ -32,11 +32,12 @@
 
       notify: restart snmpd
 
-    - name: Enable SNMP service
-      service:
-        name: snmpd
-        enabled: yes
-        state: started
+    - name: Start snmpd in container
+      shell: |
+        pkill snmpd || true
+        snmpd -Lsd
+      args:
+        executable: /bin/bash
 
     - name: Verify SNMP process
       shell: pgrep snmpd
@@ -50,6 +51,8 @@
   handlers:
 
     - name: restart snmpd
-      service:
-        name: snmpd
-        state: restarted
+      shell: |
+        pkill snmpd || true
+        snmpd -Lsd
+      args:
+        executable: /bin/bash
